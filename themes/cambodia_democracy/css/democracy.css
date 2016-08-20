@@ -154,8 +154,23 @@ p {
     margin-top: 60px;
 }
 
+.footer-col p {
+    text-align: justify;
+}
 /* Layout */
+.ln-switcher {
+    padding-right: 20px;
+}
+.ln-switcher a {
+    color: white;
+    font-weight: bold;
+}
 
+.border-dash {
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: dashed;
+}
 .democracy-sidebar {
     padding-left: 15px;
     padding-right: 15px;

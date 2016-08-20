@@ -333,14 +333,18 @@
 
 <!-- start: Footer Gallery-->
 {% if  is_front  %}
-  <div class="footerwidget">
+  <div class="footerwidget border-dash">
     <div class="container">
       
       <div class="row">
         
-        <div class="col-md-6 col-sm-12 left-footer-col footer-col">
-           <p>kdsfjsdfjkdsjfadsj;fl</p>
-        </div>
+        <!-- Start Bottom Second Region -->
+          <div class ="col-md-6 col-sm-12 left-footer-col footer-col">
+            {% if page.footer_first %}
+            {{ page.footer_first }}
+            {% endif %}
+          </div>
+          <!-- End Bottom Second Region -->
         <div class="col-md-6 col-sm-12 right-footer-col footer-col">
            {{ homepage_slideshow }}
         </div>
@@ -364,8 +368,13 @@
            
             {{ homepage_video }}
         </div>
-        <div class="col-md-6 col-sm-12 right-footer-col footer-col">
-           <p>kdsfjsdfjkdsjfadsj;fl</p>
+        <!-- Start Bottom First Region -->
+        <div class ="col-md-6 col-sm-12 right-footer-col footer-col">
+            {% if page.footer_second %}
+            {{ page.footer_second }}
+            {% endif %}
+        </div>
+          <!-- End Bottom First Region -->
         </div>
 
         <!-- End Footer Third Region -->
