@@ -1,0 +1,19 @@
+***************
+*** 299,306 ****
+    }
+  
+    if ($font_style !== NULL) {
+-     if (!empty($font_style->css_fallbacks)) {
+-       $family_list .= ', ' . $font_style->css_fallbacks;
+      }
+    }
+  
+--- 299,306 ----
+    }
+  
+    if ($font_style !== NULL) {
++     if (!empty($font_style->getFallback())) {
++       $family_list .= ', ' . $font_style->getFallback();
+      }
+    }
+  

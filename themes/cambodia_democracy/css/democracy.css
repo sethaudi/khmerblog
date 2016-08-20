@@ -1,0 +1,203 @@
+/* Custom Code for Khmer Democracy */
+a {
+    color: #1A1A97;
+}
+
+a:hover {
+    color: #C11A1A;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+#search-block-form input {
+    color: red;
+}
+
+.vert-hori-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateY(-50%);
+}
+.btn, input[type="submit"] {
+    background: #0E0F3F; 
+}
+.btn:hover, input[type="submit"]:hover {
+    background: #420F13;
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.center-container {
+    text-align: center;
+}
+.img-inline {
+    display: inline-block;
+}
+.img-responsive-height img {
+    height: auto !important;
+}
+.img-responsive-width img {
+    width: auto !important;
+}
+.img-responsive-both img {
+    width: auto !important;
+    height: auto !important;
+}
+.white-black-bg {
+    background: rgba(0, 0, 0, 0.8); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.8), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.8), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent); /* Standard syntax */
+}
+.grey-trans-bg{
+    background: rgba(0, 0, 0, 0.3);
+}
+.banner-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.banner-text {
+    font-size: 29px;
+    padding: 20px;
+    color: lightgrey;
+}
+/* Profiles Page */
+#block-cambodia-democracy-content .social-media {
+    float: left;
+}
+#block-cambodia-democracy-content .social-media a:nth-child(1){
+    margin-left: 0px !important;
+}
+
+/* Gallery Page */
+.main-gallery-container {
+    margin-bottom: 50px;
+}
+.image-gallery {
+    padding: 5px;
+    height: 250px;
+    position: relative;
+    overflow-y: hidden;
+    margin-bottom: 3px;
+}
+.image-gallery .gallery-view-title {
+    position: absolute;
+    padding: 10px;
+    left: 5px;
+    width: 97.2%;
+    font-size: 17px;
+}
+@media only screen and (min-width: 768px){
+    .image-gallery .gallery-view-title{
+        display: none; 
+    }
+    .image-gallery img {
+        opacity: 0.9;
+    }
+}
+.image-gallery .gallery-view-title a {
+    color: white !important;
+}
+.image-gallery .gallery-view-title a:hover {
+    text-decoration: none;
+}
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+.image-gallery img:hover {
+    opacity: 1.0;
+}
+
+.left-profile img {
+    border-radius: 400px;
+}
+
+/* Video Node */
+
+#block-views-block-video-video-main {
+    margin-bottom: 0px;
+}
+
+#block-views-block-video-video-main .video-view {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.video-description {
+    margin-top: 50px;
+}
+
+.side-videos {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.video-view-side {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.video-title h3 {
+    margin-top: 0px;
+}
+
+/* Homepage Profile Block */
+.profile-image img {
+    height: auto;
+    border-radius: 325px;
+}
+
+/* Footer */
+.footer-menu{
+    margin-top: 60px;
+}
+
+/* Layout */
+
+.democracy-sidebar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.right-footer-col h1, .left-footer-col h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.content-layout {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 0px solid white;
+}
+.content-layout p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px){
+    .content-layout {
+        padding-left: 50px;
+        padding-right: 50px;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .content-layout p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*  View Slideshow */
+
+.views-field-field-jssor-image .field-content  {
+    text-align: center;
+}
+.footer-col {
+    text-align: center;
+}
+
+
+
+
