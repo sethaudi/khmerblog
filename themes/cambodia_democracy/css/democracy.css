@@ -56,6 +56,9 @@ p {
 .grey-trans-bg{
     background: rgba(0, 0, 0, 0.3);
 }
+.banner {
+    height: 300px;
+}
 .banner-padding {
     padding-top: 70px;
     padding-bottom: 70px;
