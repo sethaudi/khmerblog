@@ -1,11 +1,11 @@
 /* Custom Code for Khmer Democracy */
-html, body {
-    height: 100%;
-}
 .main-header {
     padding-top: 40px;
 }
 @media only screen and (min-width: 768px){
+    html, body {
+        height: 100%;
+    }
     .welcome-banner-text {
         position: absolute;
         top: 50%;
