@@ -1,6 +1,9 @@
 /* Custom Code for Khmer Democracy */
-html, body, .main-header {
+html, body {
     height: 100%;
+}
+.main-header {
+    padding-top: 40px;
 }
 a {
     color: #1A1A97;
