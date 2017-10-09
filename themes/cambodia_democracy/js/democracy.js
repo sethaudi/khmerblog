@@ -5,6 +5,10 @@ jQuery(document).ready(function($){
         $(this).find('.gallery-view-title').stop().slideToggle(200);
        });
    }
+    
+    if($(window).width() > 768){
+        
+    }
    
 });
 
